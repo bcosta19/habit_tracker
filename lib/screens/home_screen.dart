@@ -70,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
             TextField(
               controller: _habitController,
               decoration: const InputDecoration(
-                labelText: 'Ad a new habit',
+                labelText: 'Add a new habit',
               ),
               onSubmitted: (_) => _addHabit(),
             ),
