@@ -77,7 +77,7 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(height: 10),
             ElevatedButton(
               onPressed: _addHabit,
-              child: const Text('Add Habit'),
+              child: const Text('Add habit'),
             ),
             const SizedBox(height: 20),
             Expanded(
