@@ -1,16 +1,24 @@
 # habit_tracker
 
-A new Flutter project.
+Um projeto pessoal com o objetivo de aprender mais sobre FLutter, fluxos de trabalho com o git e automatização de testes com o Github Actions.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Se tiver interesse em rodar esse projeto em seu Desktop siga os comandos
 
-A few resources to get you started if this is your first Flutter project:
+Clone o repositório na sua máquina
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+`git clone https://github.com/bcosta19/habit_tracker`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Entre na pasta do projeto
+
+`cd habit_tracker`
+
+Instale as dependências
+
+`flutter pub get`
+
+Inicie o programa
+
+`flutter run`
+
