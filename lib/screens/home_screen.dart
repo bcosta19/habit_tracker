@@ -61,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('Habit Tracker'),
+        title: const Text('habit tracker'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
