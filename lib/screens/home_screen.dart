@@ -77,12 +77,12 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(height: 10),
             ElevatedButton(
               onPressed: _addHabit,
-              child: const Text('Add Habit'),
+              child: const Text('Add habit'),
             ),
             const SizedBox(height: 20),
             Expanded(
               child: _habits.isEmpty
-                  ? const Center(child: Text('o habits added yet.'))
+                  ? const Center(child: Text('No habits added yet.'))
                   : ListView.builder(
                       itemCount: _habits.length,
                       itemBuilder: (context, index) {
